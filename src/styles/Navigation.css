@@ -6,6 +6,15 @@
   visibility: visible;
 }
 
+.nav-bar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #eb4c89;
+  z-index: 4;
+  opacity: 100%;
+}
+
 .nav-items {
   display: flex;
   justify-content: space-between;

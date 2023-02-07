@@ -31,9 +31,13 @@ const Cities = () => {
             onChange={handleChange}
             placeholder="Search a city..."
           />
+          <p className="message">
+            {filtered.length}
+            &nbsp;Items found...
+          </p>
         </form>
       </div>
-      <div className="citiess-container">
+      <div className="cities-container">
         {filtered.map((city) => (
           <div key={city.id} className="city">
             <NavLink to={`/${city.id}`} className="city-link">

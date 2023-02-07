@@ -1,3 +1,8 @@
 body {
   margin: 0;
 }
+
+.details-container {
+  background-color: #9b325a;
+  border: 1px solid black;
+}
