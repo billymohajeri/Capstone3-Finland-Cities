@@ -1,3 +1,25 @@
-.app-title {
+.app-title,
+.search-form {
   text-align: center;
+}
+
+.search-input {
+  width: 50%;
+  max-width: 500px;
+}
+
+img {
+  -webkit-filter: saturate(0%);
+  filter: saturate(0%);
+  opacity: 40%;
+  height: 200px;
+}
+
+img:hover {
+  -webkit-filter: unset;
+  filter: unset;
+
+  /* filter: saturate(10%); */
+  opacity: unset;
+  transition: 2s;
 }

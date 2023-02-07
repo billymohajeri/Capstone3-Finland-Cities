@@ -16,3 +16,10 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.icon {
+  color: white;
+  padding: 2px;
+  font-size: 3rem;
+  margin: 7px;
+}

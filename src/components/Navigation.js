@@ -10,12 +10,12 @@ const Navigation = () => (
           to="/"
           className={({ isActive }) => (isActive ? 'activeLink' : 'nonActiveLink')}
         >
-          <IoMdArrowRoundBack />
+          <IoMdArrowRoundBack className="icon" />
         </NavLink>
       </li>
       <li>
-        <IoMdMic />
-        <IoMdSettings />
+        <IoMdMic className="icon" />
+        <IoMdSettings className="icon" />
       </li>
     </ul>
   </nav>

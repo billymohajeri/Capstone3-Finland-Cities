@@ -22,9 +22,9 @@ const Cities = () => {
   return (
     <>
       <div className="cities-search">
-        <form className="form">
+        <form className="search-form">
           <input
-            className="input"
+            className="search-input"
             type="text"
             value={search}
             aria-label="search"

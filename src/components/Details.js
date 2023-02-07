@@ -62,7 +62,7 @@ const Details = () => {
             </li>
             <li>
               <p className="info-text">
-                Time Zone:&nbsp;
+                Time Zone: UTC+2&nbsp;
                 {citiesDetailsList.data.timezone}
               </p>
             </li>
