@@ -54,7 +54,9 @@ const Details = () => {
               </tr>
               <tr>
                 <td>Time Zone</td>
-                <td>{citiesDetailsList.data.timezone}</td>
+                <td>
+                  {citiesDetailsList.data.timezone === 'Europe__Helsinki' ? 'UTC+2' : ''}
+                </td>
               </tr>
             </tbody>
           </table>

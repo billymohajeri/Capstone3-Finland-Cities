@@ -25,24 +25,64 @@ body {
 
 .text-city {
   color: white;
-  font-size: 230%;
+  font-size: 2.5rem;
   margin-bottom: 2rem;
 }
 
-.details-list {
+table {
+  border-spacing: 4px;
+  width: 100%;
   font-size: 1.5rem;
 }
 
 td {
-  width: 10%;
+  width: 50%;
   border: none;
   padding: 1%;
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
 }
 
 tr:nth-child(odd) {
-  background-color: rgb(201, 201, 201);
+  background-color: #dc4780;
 }
 
 tr:nth-child(even) {
-  background-color: rgb(255, 255, 255);
+  background-color: #822a4c;
+}
+
+@media only screen and (max-width: 1400px) {
+  .second-container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  table {
+    font-size: 1.25rem;
+  }
+
+  .text-city {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  table {
+    font-size: 1rem;
+  }
+
+  .text-city {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  table {
+    font-size: 0.75rem;
+  }
+
+  .text-city {
+    font-size: 1rem;
+  }
 }

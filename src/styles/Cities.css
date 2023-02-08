@@ -89,3 +89,46 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .city-image {
+    height: 100px;
+  }
+
+  .city-link {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .city-image {
+    height: 70px;
+  }
+
+  .city-link {
+    font-size: 1rem;
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .city-image {
+    height: 50px;
+  }
+
+  .city-link {
+    font-size: 1rem;
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+  .city-image {
+    height: 50px;
+  }
+
+  .city-link {
+    font-size: 0.75rem;
+    padding: 5px;
+  }
+}
