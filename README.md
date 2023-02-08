@@ -2,8 +2,11 @@
 
 <div align="center">
 
-  <img src="./src/Assets/planet.png" alt="logo" width="250"  height="auto" />
+  <img src="./src/assets/finland.jpg" alt="finland" width="450"  height="auto" />
   <br/>
+
+  <h3><b>Finland Cities</b></h3>
+
 
 </div>
 
@@ -33,13 +36,16 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 🇫🇮 Finland Cities <a name="about-project"></a>
+# 📖 Finland Cities <a name="about-project"></a>
 
+This is my capstone React/Redux project. I selected an API that gives me data on cities, and then I used React and Redux to build my web application. There are 2 pages in the app. The user may view a list of cities on the main page, as well as search and filter them. In the detailed view page, user is able to see different data about the city.
 
+The [Ballhead](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) app by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) served as the model for the design standards.
 
 <div align="center">
-  <img src="./src/Assets/App-1.png" alt="app-screenshot" width="650"  height="auto" />
-  <img src="./src/Assets/App-2.png" alt="app-screenshot" width="650"  height="auto" />
+  <img src="./src/assets/App-1.png" alt="app-screenshot" width="650"  height="auto" />
+  <img src="./src/assets/App-2.png" alt="app-screenshot" width="650"  height="auto" />
+  <img src="./src/assets/App-2.png" alt="app-screenshot" width="650"  height="auto" />
   <br/>
 </div>
 
@@ -51,10 +57,16 @@
 - CSS
 - JavaScript
 - React
+- Redux
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
+
+- List the top 20 cities in Finland by population.
+- Search any city in this list.
+- Display the details of each city.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,8 +147,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Deploy on GitHub**
-- [ ] **Responsive design**
+- [ ] **Expand to all of the cities of Finland**
+- [ ] **Expand to all of the countries**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,7 +174,9 @@ If you like this project, please consider giving it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank all code reviewers for making this project better.
+- I would like to thank all code reviewers for making this project better.
+- Original design idea by Nelson Sakwa on Behance.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
