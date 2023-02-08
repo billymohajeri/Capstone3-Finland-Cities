@@ -41,7 +41,7 @@ const Cities = () => {
         {filtered.map((city) => (
           <div key={city.id} className="city">
             <NavLink to={`/${city.id}`} className="city-link">
-              <img src={`https://7gg9.short.gy/COA${city.id}`} alt="coat-of-arms" />
+              <img className="city-image" src={`https://7gg9.short.gy/COA${city.id}`} alt="coat-of-arms" />
               <h2>{city.name}</h2>
             </NavLink>
           </div>

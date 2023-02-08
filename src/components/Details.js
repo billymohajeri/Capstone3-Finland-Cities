@@ -14,60 +14,51 @@ const Details = () => {
   }, [dispatch, id]);
 
   return (
-    <div className="details-container">
+    <div className="first-container">
       {citiesDetailsList.data && (
-        <>
-          <div>
-            <h2 className="text-city">
-              City:&nbsp;
-              {citiesDetailsList.data.city}
-              <img
-                src={`https://7gg9.short.gy/COA${citiesDetailsList.data.id}`}
-                alt={citiesDetailsList.data.city}
-              />
-            </h2>
-          </div>
-          <ul className="details-list">
-            <li>
-              <p className="info-text">
-                Region:&nbsp;
-                {citiesDetailsList.data.region}
-              </p>
-            </li>
-            <li>
-              <p className="info-text">
-                Latitude:&nbsp;
-                {citiesDetailsList.data.latitude}
-              </p>
-            </li>
-            <li>
-              <p className="info-text">
-                Longitude:&nbsp;
-                {citiesDetailsList.data.longitude}
-              </p>
-            </li>
-            <li>
-              <p className="info-text">
-                Population:&nbsp;
-                {citiesDetailsList.data.population}
-              </p>
-            </li>
-            <li>
-              <p className="info-text">
-                Elevation Meters:&nbsp;
-                {citiesDetailsList.data.elevationMeters
-                  ? citiesDetailsList.data.elevationMeters
-                  : 'Not provided...'}
-              </p>
-            </li>
-            <li>
-              <p className="info-text">
-                Time Zone: UTC+2&nbsp;
-                {citiesDetailsList.data.timezone}
-              </p>
-            </li>
-          </ul>
-        </>
+        <div className="second-container">
+          <h2 className="text-city">
+            City:&nbsp;
+            {citiesDetailsList.data.city}
+          </h2>
+          <img
+            className="detail-image"
+            src={`https://7gg9.short.gy/COA${citiesDetailsList.data.id}`}
+            alt={citiesDetailsList.data.city}
+          />
+          <table className="details-list">
+            <tbody>
+              <tr>
+                <td>Region</td>
+                <td>{citiesDetailsList.data.region}</td>
+              </tr>
+              <tr>
+                <td>Latitude</td>
+                <td>{citiesDetailsList.data.latitude}</td>
+              </tr>
+              <tr>
+                <td>Longitude</td>
+                <td>{citiesDetailsList.data.longitude}</td>
+              </tr>
+              <tr>
+                <td>Population</td>
+                <td>{citiesDetailsList.data.population}</td>
+              </tr>
+              <tr>
+                <td>Elevation Meters</td>
+                <td>
+                  {citiesDetailsList.data.elevationMeters
+                    ? citiesDetailsList.data.elevationMeters
+                    : 'Not provided...'}
+                </td>
+              </tr>
+              <tr>
+                <td>Time Zone</td>
+                <td>{citiesDetailsList.data.timezone}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       )}
     </div>
   );

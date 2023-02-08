@@ -27,12 +27,10 @@ const citiesDetailsSlice = createSlice({
   },
   reducers: {},
 
-  extraReducers: {
-
-    [fetchCitiesDetails.fulfilled]: (state, action) => {
+  extraReducers: (builder) => {
+    builder.addCase(fetchCitiesDetails.fulfilled, (state, action) => {
       state.citiesDetails = action.payload;
-    },
-
+    });
   },
 });
 

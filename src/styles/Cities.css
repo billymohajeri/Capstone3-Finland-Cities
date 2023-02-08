@@ -1,6 +1,6 @@
 .cities-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   gap: 20px;
   margin-bottom: 150px;
@@ -9,8 +9,7 @@
 
 .city {
   background-color: #9b325a;
-  width: 18vw;
-  min-width: 600px;
+  width: 90%;
   border-radius: 8px;
 }
 
@@ -59,7 +58,7 @@
   outline: none;
 }
 
-img {
+.city-image {
   -webkit-filter: saturate(0%);
   filter: saturate(0%);
   opacity: 40%;
@@ -71,4 +70,22 @@ img {
   filter: unset;
   opacity: unset;
   transition: 1s;
+}
+
+@media only screen and (min-width: 1701px) {
+  .cities-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 1699px) {
+  .cities-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cities-container {
+    grid-template-columns: 1fr;
+  }
 }
