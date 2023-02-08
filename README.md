@@ -1,13 +1,9 @@
 <a name="readme-top"></a>
 
 <div align="center">
-
   <img src="./src/assets/finland.jpg" alt="finland" width="450"  height="auto" />
   <br/>
-
   <h3><b>Finland Cities</b></h3>
-
-
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -45,7 +41,7 @@ The [Ballhead](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)
 <div align="center">
   <img src="./src/assets/App-1.png" alt="app-screenshot" width="650"  height="auto" />
   <img src="./src/assets/App-2.png" alt="app-screenshot" width="650"  height="auto" />
-  <img src="./src/assets/App-2.png" alt="app-screenshot" width="650"  height="auto" />
+  <img src="./src/assets/App-3.png" alt="app-screenshot" width="650"  height="auto" />
   <br/>
 </div>
 
