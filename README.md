@@ -16,6 +16,7 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
+  - [📺 Presentation](#presentation)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -70,7 +71,13 @@ The [Ballhead](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Not deployed yet...
+[Live Demo Link](https://finland-cities.onrender.com/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📺 Presentation <a name="video-link"></a>
+
+[Presentation about this project](https://www.loom.com/share/fcb636d8d32e439d8fe6b510acc01397)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
