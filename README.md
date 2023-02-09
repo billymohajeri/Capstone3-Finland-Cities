@@ -75,7 +75,7 @@ The [Ballhead](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📺 Presentation <a name="video-link"></a>
+## 📺 Presentation <a name="presentation"></a>
 
 [Presentation about this project](https://www.loom.com/share/a8d496760c634c4584f42e2351aedba3)
 
