@@ -1,0 +1,34 @@
+.activeLink {
+  visibility: hidden;
+}
+
+.NonActiveLink {
+  visibility: visible;
+}
+
+.nav-bar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #eb4c89;
+  z-index: 4;
+  opacity: 100%;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.icon {
+  color: white;
+  padding: 2px;
+  font-size: 3rem;
+  margin: 7px;
+}

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Connected React/Redux Component Renders correctly 1`] = `
+<div
+  className="first-container"
+/>
+`;

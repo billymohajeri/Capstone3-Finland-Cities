@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Connected React/Redux Component Renders correctly 1`] = `
+Array [
+  <div
+    className="cities-search"
+  >
+    <form
+      className="search-form"
+    >
+      <input
+        aria-label="search"
+        className="search-input"
+        onChange={[Function]}
+        placeholder="Search a city..."
+        type="text"
+        value=""
+      />
+      <p
+        className="message"
+      >
+        0
+         Items found...
+      </p>
+    </form>
+  </div>,
+  <div
+    className="cities-container"
+  />,
+]
+`;
